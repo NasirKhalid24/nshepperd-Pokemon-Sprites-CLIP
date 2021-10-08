@@ -1,0 +1,6 @@
+[submodule "CLIP_JAX"]
+	path = CLIP_JAX
+	url = https://github.com/kingoflolz/CLIP_JAX
+[submodule "jaxtorch"]
+	path = jaxtorch
+	url = https://github.com/nshepperd/jaxtorch
