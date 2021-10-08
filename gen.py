@@ -10,7 +10,7 @@ Note from original code:
 import argparse
 from runner import demo
 
-parser = argparse.ArgumentParser(description='Written by nshepperd: "Generates pixel artwork from a prompt using a diffusion model trained on pokemon sprites. Thanks Katherine Crowson (https://github.com/crowsonkb, https://twitter.com/RiversHaveWings) for the diffusion model design :)"')
+parser = argparse.ArgumentParser(description='Written by nshepperd: "Generates pixel artwork from a prompt using a diffusion model trained on pokemon sprites. Thanks Katherine Crowson (https://github.com/crowsonkb, https://twitter.com/RiversHaveWings) for the diffusion model design :)"', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
 parser.add_argument('--seed', type=int,
                     help='Seed for random number generator', default=0)
