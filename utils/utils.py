@@ -48,6 +48,8 @@ def fetch_model(url_or_path):
     if os.path.exists(basename):
         return basename
     else:
+        print("Download Weights...")
+        if not os.path.isdir( os.path.dirname(basename) ): os.mkdir(os.path.dirname(basename))
         data = fetch(url_or_path).read()
         with open(basename, 'wb') as fp:
             fp.write(data)

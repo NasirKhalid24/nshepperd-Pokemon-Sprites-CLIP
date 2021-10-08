@@ -30,7 +30,8 @@ optional arguments:
 ## Setup
 
 ```
-git clone https://github.com/NasirKhalid24/Pokemon-Sprites-CLIP.git
+git clone --recursive https://github.com/NasirKhalid24/nshepperd-Pokemon-Sprites-CLIP.git
+cd nshepperd-Pokemon-Sprites-CLIP/
 pip install -r requirements.txt
 ```
 
