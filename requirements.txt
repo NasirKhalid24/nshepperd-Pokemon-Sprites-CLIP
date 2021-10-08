@@ -10,5 +10,4 @@ cbor2
 ftfy
 torch
 einops
-haiku
 Pillow
