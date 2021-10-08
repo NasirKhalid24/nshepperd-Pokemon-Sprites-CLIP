@@ -15,7 +15,7 @@ FLOAT64=False
 seed = 0
 
 # Prompt for CLIP guidance
-prompt = "pikachu #pixelart"
+prompt = "harry potter #pixelart"
 
 # Strength of conditioning
 clip_guidance_scale = 2000
@@ -36,4 +36,4 @@ steps = 250
 class StateDict(dict):
     pass
 
-demo()
+demo(prompt=prompt)

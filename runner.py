@@ -33,7 +33,7 @@ class StateDict(dict):
 
 ## Actually do the run
 def demo(
-    prompt="",
+    prompt="pokemon",
     clip_size=224,
     eta=1.0,
     clip_guidance_scale=2000,
@@ -46,7 +46,12 @@ def demo(
     if FLOAT64:        
         config.update("jax_enable_x64", True)
         
-    ## Load models
+    # Info
+    print("")
+    print("Prompt is \"", prompt, "\"")
+    print("Image size is ", image_size, "x", image_size)
+    print("")
+    # Load models
     print('Using device:', jax.devices())
 
     model = Diffusion()
