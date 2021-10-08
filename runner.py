@@ -17,7 +17,7 @@ from jaxtorch import PRNG, Context
 import clip_jax
 
 # For data loading.
-from torchvision import  utils
+from torchvision import  utils as tutils
 from torchvision.transforms import functional as TF
 import torch.utils.data
 import torch
@@ -168,7 +168,7 @@ def demo(
         else:
             fakes = pred
 
-    grid = utils.make_grid(torch.tensor(np.array(fakes)), 4).cpu()
+    grid = tutils.make_grid(torch.tensor(np.array(fakes)), 4).cpu()
     timestring = time.strftime('%Y%m%d%H%M%S')
     os.makedirs('samples', exist_ok=True)
     filename = f'samples/{timestring}_{prompt}.png'
