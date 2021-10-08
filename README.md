@@ -2,7 +2,7 @@
 
 Script version of Notebook made by [@nshepperd](https://twitter.com/nshepperd1)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">64x64 pixel art sprites CLIP guided diffusion notebook <a href="https://t.co/mIO90LNhU0">https://t.co/mIO90LNhU0</a> <a href="https://twitter.com/RiversHaveWings?ref_src=twsrc%5Etfw">@RiversHaveWings</a></p>&mdash; nshepperd (@nshepperd1) <a href="https://twitter.com/nshepperd1/status/1446478687298207749?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">64x64 pixel art sprites CLIP guided diffusion notebook <a href="https://t.co/mIO90LNhU0">https://t.co/mIO90LNhU0</a> <a href="https://twitter.com/RiversHaveWings?ref_src=twsrc%5Etfw">@RiversHaveWings</a></p>&mdash; nshepperd (@nshepperd1) <a href="https://twitter.com/nshepperd1/status/1446478687298207749?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote> 
 
 
 ```
