@@ -1,0 +1,8 @@
+dm-haiku
+ftfy
+einops
+cbor2
+tqdm
+requests
+optax
+jax
